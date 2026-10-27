@@ -218,3 +218,16 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Additional exclusions from the IBM CI/CD final project template
+.DS_Store
+Thumbs.db
+.vagrant/
+unittests.xml
+db/*
+!db/.keep
+.scannerwork/
+.sonarlint/
+.noseids
+*,cover
+.python-version
