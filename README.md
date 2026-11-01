@@ -1,4 +1,4 @@
-# CI/CD Tools and Practices Final Project Template
+# CI/CD Tools and Practices Final Project
 
 ## Project Name
 ci-cd-final-project
@@ -20,8 +20,8 @@ ci-cd-final-project
 - `setup.cfg`: nose, coverage, and flake8 configuration.
 - `Dockerfile` and `Procfile`: Application runtime definitions.
 - `bin/setup.sh`: Setup script for the course's Linux lab environment.
-- `.github/workflows/workflow.yml`: Empty template file for the CI exercise.
-- `.tekton/tasks.yml`: Empty template file for the Tekton task exercise.
+- `.github/workflows/workflow.yml`: The GitHub Actions CI exercise.
+- `.tekton/tasks.yml`: The Tekton task exercise.
 
 ## Setup
 
@@ -49,13 +49,6 @@ python -m pip install -r requirements.txt
 flake8 service tests --count --max-complexity=10 --max-line-length=127 --statistics
 nosetests -v --with-spec --spec-color
 ```
-
-## Tasks
-
-This repository currently contains the upstream starter application. The GitHub
-Actions workflow and Tekton tasks are intentionally empty, matching the template,
-and must be implemented as part of the final project. Successful CI runs,
-OpenShift deployment, screenshots, and application logs are still to be collected.
 
 ## License And Attribution
 
